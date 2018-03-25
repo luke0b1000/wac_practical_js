@@ -14,3 +14,5 @@ VERSION 1 - Arrays
         console.log('My todos: ', todos);
     -It should have a way to add new todos
         todos.push('item 5'); // add new item to the end of the array
+    -It should have a way to change a todo
+        todos[0] = 'item 1 updated';
