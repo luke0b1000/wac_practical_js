@@ -73,3 +73,4 @@ VERSION 2 - Functions
 Interlude - Functions and variables
     -Observations
         // If you're inside of a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
+    -Circles and arrows
