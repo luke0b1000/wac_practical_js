@@ -51,3 +51,9 @@ VERSION 2 - Functions
             console.log('My todos: ', todos);
         }
         displayTodos();
+    -It should have a function to add new todos
+        function addTodos(todo) {
+            todos.push(todo);
+            displayTodos();
+        }
+        addTodos('new item');
