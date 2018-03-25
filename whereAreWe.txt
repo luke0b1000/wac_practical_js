@@ -76,3 +76,12 @@ Interlude - Functions and variables
     -Circles and arrows
     -Applying what we've learned
 Version 3 - Objects
+    -What is an object
+        var myComputer = {
+            operatingSystem: 'mac',   // operatingSystem is a property, value is mac
+            screenSize: '15 inches',
+            purchaseYear: 2011,
+        }
+        myComputer                  // all the Objects are displayed
+        myComputer.operatingSystem  // 'mac'
+        myComputer.purchaseYear     // 2011
