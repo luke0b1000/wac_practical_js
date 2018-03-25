@@ -179,3 +179,4 @@ Version 6 - Thinking in Code
     -.toggleAll: If everything's true, make everything false
         todoList.toggleAll();
     -.toggleAll: Otherwise, make everything true
+    -Review
