@@ -147,3 +147,4 @@ Version 4 - Booleans
     -todoList.toggleCompleted should flip the completed property
         todoList.toggleCompleted(0);    // toggle between true or false
     -Review
+Version 5 - Loops of Logic
