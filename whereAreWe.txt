@@ -184,3 +184,6 @@ Interlude - Data types and comparisons
     -Data types overview
         Objects {} // todoList, arrays, Functions
         Primitives (building blocks) // String, Number, Boolean, Undefined, Null
+    -Comparisons with primitives
+        undefined === undefined //true
+        Null === Null // true
