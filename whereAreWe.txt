@@ -199,3 +199,6 @@ Interlude - Data types and comparisons
         Primitives compares values
         Objects compare references (memory addresses)
     -How are primitives and objects stored inside of variables?
+    -Code example 1
+        var myObject = {name: 'gordon'};
+        myObject [ MEMORY ADDRESS ] >-------> {name: 'gordon'}
