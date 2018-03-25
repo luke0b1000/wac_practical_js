@@ -136,3 +136,9 @@ Version 4 - Booleans
         -todoList.addTodo should add objects
         -todoList.changeTodo should change the todoText property
         -todoList.toggleCompleted should flip the completed property
+    -todoList.addTodo should add objects
+        this.todos.push({
+            todoText: todoText,
+            completed: false,
+        });
+        todoList.addTodo('this is an object');
