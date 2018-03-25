@@ -28,3 +28,10 @@ VERSION 2 - Functions
             Put a slice of bread on top;
         }
         makeTurkeySandwich();
+    -Customizing Functions
+        function makeSandwichWith(filling) {    // makeSandwichWith(parameters)
+            Get once slice of bread;
+            Add filling;
+            Put a slice of bread on top;
+        }
+        makeSandwichWith(ham);                  // makeSandwichWith(arguements);
