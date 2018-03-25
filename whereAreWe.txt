@@ -202,3 +202,4 @@ Interlude - Data types and comparisons
     -Code example 1
         var myObject = {name: 'gordon'};
         myObject [ MEMORY ADDRESS ] >-------> {name: 'gordon'}
+    -Code example 2
