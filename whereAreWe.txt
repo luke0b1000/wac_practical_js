@@ -40,3 +40,8 @@ VERSION 2 - Functions
             console.log('hi', person);
         }
         sayHiTo('gordon');
+    -Requirements
+        -It should have a function to display todos
+        -It should have a function to add new todos
+        -It should have a function to change a todo
+        -It should have a function to delete a todo
