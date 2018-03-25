@@ -195,3 +195,6 @@ Interlude - Data types and comparisons
         houseA === houseA;  // true
         houseB = houseA;    // setting houseB to the same memory location as houseA
         houseA === houseB;  // true
+    -Comparisons review
+        Primitives compares values
+        Objects compare references (memory addresses)
