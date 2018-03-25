@@ -6,3 +6,5 @@ VERSION 1 - Arrays
         -It should have a way to change a todo
         -It should have a way to delete a todo
         -Review
+    -It should have a place to store todos
+        var todos = ['item 1', 'item 2', 'item 3']  //Array
