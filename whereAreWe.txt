@@ -167,3 +167,4 @@ Version 5 - Loops of Logic
         -displayTodos should show .completed
     -displayTodos should show .todoText
         todoList.displayTodos();
+    -displayTodos should tell you if .todos is empty
