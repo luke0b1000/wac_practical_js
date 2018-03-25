@@ -20,3 +20,4 @@ VERSION 1 - Arrays
         // todos.splice(position, how many items to delete); // returns the items that are deleted.
         todos.splice(0,1); // started the deletion at the first [0] item and deleted only 1 item.
     -Review
+VERSION 2 - Functions
