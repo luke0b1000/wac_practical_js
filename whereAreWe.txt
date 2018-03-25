@@ -152,7 +152,12 @@ Version 5 - Loops of Logic
         for (initialization, condition, final-expression) {
             console.log('hey');
         }
-        
+
         for (var i = 0, i < 3, i = i + 1) {
             console.log('hey');
+        }
+    -Looping over arrays
+        var testArray = ['item 1', 'item 2', 'item 3'];
+        for (var i = 0, i < testArray.length, i = i + 1) {
+            console.log(testArray[i]);
         }
