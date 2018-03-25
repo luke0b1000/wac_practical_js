@@ -214,3 +214,7 @@ Interlude - Data types and comparisons
     -Code example 5
         different objects create different memory address
 Version 7 - HTML and the DOM
+    -Requirements
+        -There should be a “Display todos” button and a “Toggle all” button in the app
+        -Clicking “Display todos” should run todoList.displayTodos
+        -Clicking “Toggle all” should run todoList.toggleAll
