@@ -115,3 +115,9 @@ Version 3 - Objects
             this.displayTodos();
         },
         todoList.addTodo('plunker');
+    -It should have a changeTodo method
+        changeTodo: function(position, newValue) {
+            this.todos[position] = newValue;
+            this.displayTodos();
+        }
+        changeTodo(0, 'first');
