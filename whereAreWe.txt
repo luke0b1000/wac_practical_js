@@ -7,4 +7,8 @@ VERSION 1 - Arrays
         -It should have a way to delete a todo
         -Review
     -It should have a place to store todos
-        var todos = ['item 1', 'item 2', 'item 3']  //Array
+        var todos = ['item 1', 'item 2', 'item 3'];  //Array
+    -It should have a way to display todos
+        console.log('hello there', 'gordon');
+        var todos = ['item 1', 'item 2', 'item 3'];
+        console.log('My todos: ', todos);
