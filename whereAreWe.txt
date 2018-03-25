@@ -71,3 +71,5 @@ VERSION 2 - Functions
         deleteTodo(2);
     -Review
 Interlude - Functions and variables
+    -Observations
+        // If you're inside of a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
