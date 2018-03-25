@@ -144,3 +144,5 @@ Version 4 - Booleans
         todoList.addTodo('this is an object');
     -todoList.changeTodo should change the todoText property
         todoList.changeTodo(0, 'second try');
+    -todoList.toggleCompleted should flip the completed property
+        todoList.toggleCompleted(0);    // toggle between true or false
