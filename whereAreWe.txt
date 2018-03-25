@@ -213,3 +213,4 @@ Interlude - Data types and comparisons
         myHouse2 is an object so it's memory address is pointing to the same memory address of myHouse1
     -Code example 5
         different objects create different memory address
+Version 7 - HTML and the DOM
