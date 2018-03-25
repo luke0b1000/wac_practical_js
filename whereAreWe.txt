@@ -172,3 +172,4 @@ Version 5 - Loops of Logic
         todoList.toggleCompleted(2);
         todoList.displayTodos();
     -Review
+Version 6 - Thinking in Code
