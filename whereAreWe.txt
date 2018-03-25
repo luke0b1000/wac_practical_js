@@ -85,3 +85,11 @@ Version 3 - Objects
         myComputer                  // all the Objects are displayed
         myComputer.operatingSystem  // 'mac'
         myComputer.purchaseYear     // 2011
+    -Objects and Functions
+        var gordon = {                      // this refers to the whole object starting from { to the end }
+            name: 'Gordon',
+            sayName: function() {           // sayName is a method
+                console.log(this.name);
+            }
+        }
+        gordon.sayName();
