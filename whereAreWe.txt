@@ -57,3 +57,9 @@ VERSION 2 - Functions
             displayTodos();
         }
         addTodos('new item');
+    -It should have a function to change a todo
+        function changeTodo(position, newValue) {
+            todos[position] = newValue;
+            displayTodos();
+        }
+        changeTodo(0, 'changed again');
