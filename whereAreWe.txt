@@ -187,3 +187,11 @@ Interlude - Data types and comparisons
     -Comparisons with primitives
         undefined === undefined //true
         Null === Null // true
+    -Comparisons with objects
+        {} === {} // false  // two different objects
+        [1,2,3] === [1,2,3] // false
+        Comparisons with objects are comparing with computer memory address/location
+        var houseA = {};
+        houseA === houseA;  // true
+        houseB = houseA;    // setting houseB to the same memory location as houseA
+        houseA === houseB;  // true
