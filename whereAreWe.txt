@@ -146,3 +146,4 @@ Version 4 - Booleans
         todoList.changeTodo(0, 'second try');
     -todoList.toggleCompleted should flip the completed property
         todoList.toggleCompleted(0);    // toggle between true or false
+    -Review
