@@ -45,3 +45,9 @@ VERSION 2 - Functions
         -It should have a function to add new todos
         -It should have a function to change a todo
         -It should have a function to delete a todo
+    -It should have a function to display todos
+        var todos = ['item 1', 'item 2', 'item 3'];
+        function displayTodos() {
+            console.log('My todos: ', todos);
+        }
+        displayTodos();
