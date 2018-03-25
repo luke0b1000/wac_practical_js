@@ -131,3 +131,4 @@ Version 3 - Objects
 Interlude - Success is the process
     -Ability = Process * Time
     -The most important part of your process
+Version 4 - Booleans
