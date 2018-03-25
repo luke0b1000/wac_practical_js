@@ -35,3 +35,8 @@ VERSION 2 - Functions
             Put a slice of bread on top;
         }
         makeSandwichWith(ham);                  // makeSandwichWith(arguements);
+    -More on customizing functiions
+        function sayHiTo(person) {
+            console.log('hi', person);
+        }
+        sayHiTo('gordon');
