@@ -19,3 +19,4 @@ VERSION 1 - Arrays
     -It should have a way to delete a todo
         // todos.splice(position, how many items to delete); // returns the items that are deleted.
         todos.splice(0,1); // started the deletion at the first [0] item and deleted only 1 item.
+    -Review
