@@ -176,3 +176,5 @@ Version 6 - Thinking in Code
     -Requirements
         -.toggleAll: If everything's true, make everything false
         -.toggleAll: Otherwise, make everything true
+    -.toggleAll: If everything's true, make everything false
+        todoList.toggleAll();
