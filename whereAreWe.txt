@@ -109,3 +109,9 @@ Version 3 - Objects
         displayTodos: function() {
             console.log('My Todos:', this.todos);
         },
+    -It should have an addTodo method
+        addTodo: function(todo) {
+            this.todos.push(todo);
+            this.displayTodos();
+        },
+        todoList.addTodo('plunker');
