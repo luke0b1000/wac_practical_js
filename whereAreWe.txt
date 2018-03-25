@@ -203,3 +203,9 @@ Interlude - Data types and comparisons
         var myObject = {name: 'gordon'};
         myObject [ MEMORY ADDRESS ] >-------> {name: 'gordon'}
     -Code example 2
+    -Code example 3
+        var myHouse = {color: 'blue'};
+        var color = myHouse.color;      // Remember that color is a primitive so that it only stores values and not memory addresses, and it just takes myHouse.color
+        color = 'red';
+        // myHouse [ MEMORY ADDRESS ] >-------> {color: 'blue'}     // stays blue
+        // color   [ red ]                                          // changed to red
