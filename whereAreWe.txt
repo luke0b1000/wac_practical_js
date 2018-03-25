@@ -148,3 +148,11 @@ Version 4 - Booleans
         todoList.toggleCompleted(0);    // toggle between true or false
     -Review
 Version 5 - Loops of Logic
+    -The for loop
+        for (initialization, condition, final-expression) {
+            console.log('hey');
+        }
+        
+        for (var i = 0, i < 3, i = i + 1) {
+            console.log('hey');
+        }
