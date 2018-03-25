@@ -161,3 +161,7 @@ Version 5 - Loops of Logic
         for (var i = 0, i < testArray.length, i = i + 1) {
             console.log(testArray[i]);
         }
+    -Requirements
+        -displayTodos should show .todoText
+        -displayTodos should tell you if .todos is empty
+        -displayTodos should show .completed
