@@ -198,3 +198,4 @@ Interlude - Data types and comparisons
     -Comparisons review
         Primitives compares values
         Objects compare references (memory addresses)
+    -How are primitives and objects stored inside of variables?
