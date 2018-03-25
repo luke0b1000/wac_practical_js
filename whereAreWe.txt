@@ -142,3 +142,5 @@ Version 4 - Booleans
             completed: false,
         });
         todoList.addTodo('this is an object');
+    -todoList.changeTodo should change the todoText property
+        todoList.changeTodo(0, 'second try');
