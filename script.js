@@ -56,10 +56,8 @@ var handlers = {                // handlers are use for html -> this (handlers o
         changeTodoTextInput.value = '';
         view.displayTodos();
     },
-    deleteTodo: function(){
-        var deleteTodoPositionInput = document.getElementById('deleteTodoPositionInput');
-        todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);                         // since this is a number
-        deleteTodoPositionInput.value = '';
+    deleteTodo: function(position) {
+        todoList.deleteTodo(position);
         view.displayTodos();
     },
     toggleCompleted: function() {
@@ -101,10 +99,18 @@ var view = {
         deleteButton.className = 'deleteButton';                // <button className="deleteButton">
         return deleteButton;                                    // <button className="deleteButton">Delete</button>
     },
+    setUpEventListeners: function() {
+        var todosUl = document.querySelector('ul');
+
+        todosUl.addEventListener('click', function(event) {     // target: button.deleteButton  --> parentNode: li#0    # represents id    Listen in on all ul clicks
+            //  console.log(event);                             // So I can look at the events passed in
+            var elementClicked = event.target;                  // Get the element that was clicked on.
+
+            if (elementClicked.className === 'deleteButton') {             // Check if elementClicked.className is deleteButton  <button className="deleteButton">Delete</button>
+                handlers.deleteTodo(parseInt(elementClicked.parentNode.id));    // parseInt is to convert the id from string to Number
+            }
+        });
+    },
 };
 
-var todosUl = document.querySelector('ul');
-
-todosUl.addEventListener('click', function(event) {     // target: button.deleteButton  --> parentNode: li#0    # represents id
-    console.log(event.target.parentNode.id);            // returns 0 or 1 or 2 basically the li id
-});
+view.setUpEventListeners();
