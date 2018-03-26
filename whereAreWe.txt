@@ -230,3 +230,5 @@ Version 7 - HTML and the DOM
     -Clicking “Toggle all” should run todoList.toggleAll
     -Review
 Interlude - Don't wonder about things the debugger can tell you
+    -todoList.displayTodos
+        debugger;
