@@ -65,9 +65,6 @@ var handlers = {                // handlers are use for html -> this (handlers o
     displayTodos: function() {  // called by handlers.displayTodos()
         todoList.displayTodos();
     },
-    toggleAll: function() {     // called by handlers.toggleAll()
-        todoList.toggleAll();
-    },
     addTodo: function() {
         var addTodoTextInput = document.getElementById('addTodoTextInput'); // Retrieve the element of addTodoTextInput
         todoList.addTodo(addTodoTextInput.value);                           // addTodoTextInput.value is the value of what is type in
@@ -89,5 +86,8 @@ var handlers = {                // handlers are use for html -> this (handlers o
         var toggleCompletedPositionInput = document.getElementById('toggleCompletedPositionInput');
         todoList.toggleCompleted(toggleCompletedPositionInput.valueAsNumber);
         toggleCompletedPositionInput.value = '';
-    }
+    },
+    toggleAll: function() {     // called by handlers.toggleAll()
+        todoList.toggleAll();
+    },
 };
