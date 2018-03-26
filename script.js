@@ -90,6 +90,7 @@ var view = {
             }
 
             todoLi.textContent = todoTextWithCompletion;    // Setting the textContent of <li>todoText</li>
+            todoLi.appendChild(this.createDeleteButton());  // Puts <li>textContent     <button className="deleteButton">Delete</button>      </li>
             todoUl.appendChild(todoLi);
         }
     },
