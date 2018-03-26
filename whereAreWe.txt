@@ -218,3 +218,4 @@ Version 7 - HTML and the DOM
         -There should be a “Display todos” button and a “Toggle all” button in the app
         -Clicking “Display todos” should run todoList.displayTodos
         -Clicking “Toggle all” should run todoList.toggleAll
+    -HTML essentials
