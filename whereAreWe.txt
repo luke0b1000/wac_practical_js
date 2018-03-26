@@ -237,3 +237,4 @@ Interlude - Don't wonder about things the debugger can tell you
     -todoList.deleteTodo
     -todoList.toggleCompleted
     -todoList.toggleAll
+    -Use the debugger all the time
