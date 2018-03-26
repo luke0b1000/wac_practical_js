@@ -301,3 +301,9 @@ Interlude - Functions inside of functions
         someElement.addEventListener('click', function(event) {
             console.log(event);                                     // event has a lot of information
         });
+    -Buzzwords: Higher order functions and callback functions
+        -High order functions:
+            -Functions that accecpt other functions
+            -Enhance the behavior of other functions
+        -Callback functions:
+            -The functions that are passed into higher order functions
