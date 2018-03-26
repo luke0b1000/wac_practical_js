@@ -89,9 +89,10 @@ var view = {
                 todoTextWithCompletion = '( ) ' + todo.todoText;
             }
 
+            todoLi.id = i;                                  // <li id="0">...</li>  <li id="1">...</li>
             todoLi.textContent = todoTextWithCompletion;    // Setting the textContent of <li>todoText</li>
             todoLi.appendChild(this.createDeleteButton());  // Puts <li>textContent     <button className="deleteButton">Delete</button>      </li>
-            todoUl.appendChild(todoLi);
+            todoUl.appendChild(todoLi);                     // <ul> <li id="0">textContent      <button className="deleteButton">Delete</button>    </li></ul>
         }
     },
     createDeleteButton: function() {
