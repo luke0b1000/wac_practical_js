@@ -330,3 +330,4 @@ Version 11 - Destroy all for loops
     -Requirements
         -todoList.toggleAll should use forEach
         -view.displayTodos should use forEach
+    -todoList.toggleAll should use forEach
