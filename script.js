@@ -91,3 +91,14 @@ var handlers = {                // handlers are use for html -> this (handlers o
         todoList.toggleAll();
     },
 };
+
+var view = {                                        
+    displayTodos: function() {                      // view.displayTodos();
+        var todoUl = document.querySelector('ul');  // Get me the element <ul> and everything in its child
+        todoUl.innerHTML = '';                      // reset the <ul> before putting the list in 
+        for (var i = 0; i < todoList.todos.length; i++) {
+            var todoLi = document.createElement('li');  // Create <li> element
+            todoUl.appendChild(todoLi);
+        }
+    }
+};

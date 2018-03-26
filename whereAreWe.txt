@@ -268,3 +268,4 @@ Version 9 - Escape from the console
         var todoLi = document.createElement('li');  // Will create <li></li>
         var todoUl = document.querySelector('ul');  // Will find the ul on the HTML, return everything in element <ul>
         todoUl.appendChild(todoLi);                 // Will put todoLi (<li></li>) element as child of todoUl
+    -There should be an li element for every todo
