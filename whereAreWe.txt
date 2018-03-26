@@ -252,3 +252,4 @@ Version 8 - Getting data from inputs
     -There should be a button for changing todos
         changeTodoPositionInput.valueAsNumber
         changeTodoTextInput.value
+    -There should be a button for deleting todos

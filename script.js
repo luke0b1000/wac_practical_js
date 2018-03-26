@@ -80,4 +80,9 @@ var handlers = {                // handlers are use for html -> this (handlers o
         changeTodoPositionInput.value = '';
         changeTodoTextInput.value = '';
     },
+    deleteTodo: function(){
+        var deleteTodoPositionInput = document.getElementById('deleteTodoPositionInput');
+        todoList.deleteTodo(deleteTodoPositionInput.valueAsNumber);                         // since this is a number
+        deleteTodoPositionInput = '';
+    },
 };
