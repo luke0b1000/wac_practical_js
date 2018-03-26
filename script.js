@@ -61,7 +61,7 @@ var todoList = {
     },
 };
 
-var handlers = {
+var handlers = {                // handlers are use for html -> this (handlers object) -> todoList control
     displayTodos: function() {  // called by handlers.displayTodos()
         todoList.displayTodos();
     },

@@ -242,3 +242,4 @@ Interlude - Don't wonder about things the debugger can tell you
 Version 8 - Getting data from inputs
     -Our first refactoring
         <button onclick="handlers.displayTodos()">Display Todos</button>
+    -More on refactoring
