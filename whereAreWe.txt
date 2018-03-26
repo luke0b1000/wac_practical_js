@@ -221,3 +221,9 @@ Version 7 - HTML and the DOM
     -HTML essentials
     -What's the DOM?
     -There should be a “Display todos” button and a “Toggle all” button in the app
+    -Clicking “Display todos” should run todoList.displayTodos
+        document  // access document DOM
+        var displayTodosButton = document.getElementById('displayTodosButton');
+        displayTodosButton.addEventListener('click', function() {
+            todoList.displayTodos();
+        });
