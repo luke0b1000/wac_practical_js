@@ -327,3 +327,6 @@ Version 10 - Click to delete
     -Cleanup and Review
         -javascript event delegation
 Version 11 - Destroy all for loops
+    -Requirements
+        -todoList.toggleAll should use forEach
+        -view.displayTodos should use forEach
