@@ -260,3 +260,11 @@ Version 9 - Escape from the console
         -There should be an li element for every todo
         -Each li element should contain .todoText
         -Each li element should show .completed
+    -Inserting li elements into the DOM
+        <ol><li></li><li></li></ol> // Will give you numbers 1. 2.
+        <ul>                        // Will give you bullets // unorderList
+            <li></li>
+        </ul>
+        var todoLi = document.createElement('li');  // Will create <li></li>
+        var todoUl = document.querySelector('ul');  // Will find the ul on the HTML, return everything in element <ul>
+        todoUl.appendChild(todoLi);                 // Will put todoLi (<li></li>) element as child of todoUl
