@@ -273,3 +273,4 @@ Version 9 - Escape from the console
         todoLi.textContent  // Setting the textContent of <li>todoText</li>
     -Each li element should show .completed
     -Escaping the console
+    -Review
