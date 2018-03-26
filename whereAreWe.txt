@@ -219,3 +219,4 @@ Version 7 - HTML and the DOM
         -Clicking “Display todos” should run todoList.displayTodos
         -Clicking “Toggle all” should run todoList.toggleAll
     -HTML essentials
+    -What's the DOM?
