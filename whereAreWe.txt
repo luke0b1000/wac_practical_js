@@ -280,3 +280,5 @@ Interlude - Functions inside of functions
             debugger;
             ourFunction();
         }
+    -setTimeOut
+        setTimeOut(somefunction, 5000); // run somefunction in 5 seconds
