@@ -271,3 +271,4 @@ Version 9 - Escape from the console
     -There should be an li element for every todo
     -Each li element should contain .todoText
         todoLi.textContent  // Setting the textContent of <li>todoText</li>
+    -Each li element should show .completed

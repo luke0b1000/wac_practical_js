@@ -98,7 +98,16 @@ var view = {
         todoUl.innerHTML = '';                      // reset the <ul> before putting the list in 
         for (var i = 0; i < todoList.todos.length; i++) {
             var todoLi = document.createElement('li');          // Create <li> element
-            todoLi.textContent = todoList.todos[i].todoText;    // Setting the textContent of <li>todoText</li>
+            var todo = todoList.todos[i];                       // created each individual todo for less typing later on
+            var todoTextWithCompletion = '';
+
+            if (todo.completed === true) {
+                todoTextWithCompletion = '(x) ' + todo.todoText;
+            } else {
+                todoTextWithCompletion = '( ) ' + todo.todoText;
+            }
+
+            todoLi.textContent = todoTextWithCompletion;    // Setting the textContent of <li>todoText</li>
             todoUl.appendChild(todoLi);
         }
     }
