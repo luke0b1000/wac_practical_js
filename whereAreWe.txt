@@ -255,3 +255,4 @@ Version 8 - Getting data from inputs
     -There should be a button for deleting todos
     -There should be a button for toggling a todo
     -Review
+Version 9 - Escape from the console
