@@ -282,3 +282,18 @@ Interlude - Functions inside of functions
         }
     -setTimeOut
         setTimeOut(somefunction, 5000); // run somefunction in 5 seconds
+    -forEach
+        var students = ['johnathan', 'jenny', 'elliot'];
+        students.forEach(function (name) {
+            console.log(name);
+        });
+
+        function forEach(myArray, myFunction) {
+            for (var i = 0; i < myArray.length; i++) {
+                myFunction(myArray[i]);
+            }
+        }
+
+        forEach(students, function(student) {
+            console.log(student);
+        });
