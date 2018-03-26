@@ -297,3 +297,7 @@ Interlude - Functions inside of functions
         forEach(students, function(student) {
             console.log(student);
         });
+    -addEventListener
+        someElement.addEventListener('click', function(event) {
+            console.log(event);                                     // event has a lot of information
+        });
