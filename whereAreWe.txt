@@ -324,3 +324,5 @@ Version 10 - Click to delete
         -addEventListener to ul to catch all Delete buttons
         event.target.parentNode.id     // event  -->  target: button.deleteButton  -->  parentNode: li#0
     -Clicking delete should update todoList.todos and the DOM
+    -Cleanup and Review
+        -javascript event delegation
