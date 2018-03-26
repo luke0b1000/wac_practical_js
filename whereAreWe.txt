@@ -233,3 +233,4 @@ Interlude - Don't wonder about things the debugger can tell you
     -todoList.displayTodos
         debugger;
     -todoList.addTodo
+    -todoList.changeTodo
