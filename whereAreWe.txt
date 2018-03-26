@@ -253,3 +253,4 @@ Version 8 - Getting data from inputs
         changeTodoPositionInput.valueAsNumber
         changeTodoTextInput.value
     -There should be a button for deleting todos
+    -There should be a button for toggling a todo
