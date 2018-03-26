@@ -307,3 +307,4 @@ Interlude - Functions inside of functions
             -Enhance the behavior of other functions
         -Callback functions:
             -The functions that are passed into higher order functions
+Version 10 - Click to delete
