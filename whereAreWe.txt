@@ -227,3 +227,4 @@ Version 7 - HTML and the DOM
         displayTodosButton.addEventListener('click', function() {
             todoList.displayTodos();
         });
+    -Clicking “Toggle all” should run todoList.toggleAll
