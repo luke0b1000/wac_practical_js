@@ -27,18 +27,6 @@ var todoList = {
             }
         });
 
-        // // Case 1: If everything's true, make everything false.
-        // if (completedTodos === totalTodos) {
-        //     this.todos.forEach(function(todo) {
-        //         todo.completed = false;
-        //     });
-        // // Case 2: OTherwise, make everything true.
-        // } else {
-        //     this.todos.forEach(function(todo) {
-        //         todo.completed = true;
-        //     });
-        // }
-
         this.todos.forEach(function(todo) {
             // Case 1: If everything's true, make everything false.
             if (completedTodos === totalTodos) {
@@ -48,7 +36,7 @@ var todoList = {
                 todo.completed = true;
             }
         });
-        
+
     },
 };
 
@@ -87,9 +75,9 @@ var view = {
     displayTodos: function() {                      // view.displayTodos();  Added at the end of every handler
         var todoUl = document.querySelector('ul');  // Get me the element <ul> and everything in its child
         todoUl.innerHTML = '';                      // reset the <ul> before putting the list in 
-        for (var i = 0; i < todoList.todos.length; i++) {
+
+        todoList.todos.forEach(function(todo, position) {
             var todoLi = document.createElement('li');          // Create <li> element
-            var todo = todoList.todos[i];                       // created each individual todo for less typing later on
             var todoTextWithCompletion = '';
 
             if (todo.completed === true) {
@@ -98,11 +86,12 @@ var view = {
                 todoTextWithCompletion = '( ) ' + todo.todoText;
             }
 
-            todoLi.id = i;                                  // <li id="0">...</li>  <li id="1">...</li>
+            todoLi.id = position;                                  // <li id="0">...</li>  <li id="1">...</li>
             todoLi.textContent = todoTextWithCompletion;    // Setting the textContent of <li>todoText</li>
             todoLi.appendChild(this.createDeleteButton());  // Puts <li>textContent     <button className="deleteButton">Delete</button>      </li>
             todoUl.appendChild(todoLi);                     // <ul> <li id="0">textContent      <button className="deleteButton">Delete</button>    </li></ul>
-        }
+        }, this);                           // !!! so we can use this for delete button to refer to this in the view object !!!
+
     },
     createDeleteButton: function() {
         var deleteButton = document.createElement('button');    // Create Delete Button
