@@ -248,3 +248,4 @@ Version 8 - Getting data from inputs
         -It should have working controls for .changeTodo
         -It should have working controls for .deleteTodo
         -It should have working controls for .toggleCompleted
+    -There should be a button for adding todos
