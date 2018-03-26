@@ -275,3 +275,8 @@ Version 9 - Escape from the console
     -Escaping the console
     -Review
 Interlude - Functions inside of functions
+    -runWithDebugger
+        function runWithDebugger(ourFunction) {
+            debugger;
+            ourFunction();
+        }
