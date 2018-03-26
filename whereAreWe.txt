@@ -228,3 +228,4 @@ Version 7 - HTML and the DOM
             todoList.displayTodos();
         });
     -Clicking “Toggle all” should run todoList.toggleAll
+    -Review
