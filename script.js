@@ -102,3 +102,9 @@ var view = {
         return deleteButton;                                    // <button className="deleteButton">Delete</button>
     },
 };
+
+var todosUl = document.querySelector('ul');
+
+todosUl.addEventListener('click', function(event) {     // target: button.deleteButton  --> parentNode: li#0    # represents id
+    console.log(event.target.parentNode.id);            // returns 0 or 1 or 2 basically the li id
+});

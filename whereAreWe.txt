@@ -320,3 +320,6 @@ Version 10 - Click to delete
     -There should be a way to create delete buttons
     -There should be a delete button for each todo
     -Each li should have an id that has the todo position
+    -Delete buttons should have access to the todo id
+        -addEventListener to ul to catch all Delete buttons
+        event.target.parentNode.id     // event  -->  target: button.deleteButton  -->  parentNode: li#0
