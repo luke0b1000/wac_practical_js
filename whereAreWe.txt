@@ -238,3 +238,4 @@ Interlude - Don't wonder about things the debugger can tell you
     -todoList.toggleCompleted
     -todoList.toggleAll
     -Use the debugger all the time
+    -Focus on understanding, not building from scratch
