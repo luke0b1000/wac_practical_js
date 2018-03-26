@@ -235,3 +235,4 @@ Interlude - Don't wonder about things the debugger can tell you
     -todoList.addTodo
     -todoList.changeTodo
     -todoList.deleteTodo
+    -todoList.toggleCompleted
