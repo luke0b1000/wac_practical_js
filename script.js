@@ -97,7 +97,8 @@ var view = {
         var todoUl = document.querySelector('ul');  // Get me the element <ul> and everything in its child
         todoUl.innerHTML = '';                      // reset the <ul> before putting the list in 
         for (var i = 0; i < todoList.todos.length; i++) {
-            var todoLi = document.createElement('li');  // Create <li> element
+            var todoLi = document.createElement('li');          // Create <li> element
+            todoLi.textContent = todoList.todos[i].todoText;    // Setting the textContent of <li>todoText</li>
             todoUl.appendChild(todoLi);
         }
     }
