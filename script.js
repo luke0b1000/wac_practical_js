@@ -73,4 +73,11 @@ var handlers = {                // handlers are use for html -> this (handlers o
         todoList.addTodo(addTodoTextInput.value);                           // addTodoTextInput.value is the value of what is type in
         addTodoTextInput.value = '';                                        // Because this is retrieving the element, we can manipulate the element and clear it out
     },
+    changeTodo: function() {
+        var changeTodoPositionInput = document.getElementById('changeTodoPositionInput');   // <input id="changeTodoPositionInput" type="number">
+        var changeTodoTextInput = document.getElementById('changeTodoTextInput');           // <input id="changeTodoTextInput" type="text">
+        todoList.changeTodo(changeTodoPositionInput.valueAsNumber, changeTodoTextInput.value)
+        changeTodoPositionInput.value = '';
+        changeTodoTextInput.value = '';
+    },
 };
